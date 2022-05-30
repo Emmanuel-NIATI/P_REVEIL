@@ -97,8 +97,7 @@ public class TestClock
 
 		
 	}
-	
-	// main		
+
 	public static void main(String[] args)
 	{
 		
