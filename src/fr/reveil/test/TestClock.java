@@ -31,13 +31,13 @@ public class TestClock
 			
 			JFrame jFrame = new JFrame();
 
-			// Gestion de l'apparence de la fenêtre 
-			jFrame.setTitle("Réveil");
+			// Gestion de l'apparence de la fenï¿½tre 
+			jFrame.setTitle("Rï¿½veil");
 			jFrame.setLocation(0, 0);
 			jFrame.setSize(400, 400);
 			jFrame.setUndecorated( true );
 
-			// Création du panel Clock
+			// Crï¿½ation du panel Clock
 			JPanelReveil jPanelReveil = new JPanelReveil();
 
 			jPanelReveil.setPreferredSize( new Dimension( 320, 320 ) );
@@ -97,7 +97,8 @@ public class TestClock
 
 		
 	}
-		
+	
+	// main		
 	public static void main(String[] args)
 	{
 		
