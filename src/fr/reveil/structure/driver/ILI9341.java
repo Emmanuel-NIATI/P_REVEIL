@@ -20,7 +20,7 @@ import fr.reveil.framework.pi4j.io.spi.SpiMode;
 public class ILI9341
 {
 
-	// Plan de cabl‚ge
+	// Plan de cabl√¢ge
 	
 	
 	

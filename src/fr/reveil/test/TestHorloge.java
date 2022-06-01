@@ -122,7 +122,7 @@ public class TestHorloge
 		jFrameHorloge.setVisible( true );
 		
 		
-		// Création du thread Time de l'application
+		// CrÃ©ation du thread Time de l'application
 		ThreadTime threadTime = new ThreadTime();
 		threadTime.start();
 		

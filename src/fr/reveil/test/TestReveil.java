@@ -51,7 +51,7 @@ public class TestReveil
 		else
 		{
 
-			System.out.println( "OS non prévu : " + System.getProperty("os.name") );
+			System.out.println( "OS non prÃ©vu : " + System.getProperty("os.name") );
 		}
 		
 	}

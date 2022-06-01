@@ -95,13 +95,13 @@ public class JFrameReveil extends JFrame
 
 		super();
 
-		// Gestion de l'apparence de la fenêtre 
-		this.setTitle("Réveil");
+		// Gestion de l'apparence de la fenÃªtre 
+		this.setTitle("Rï¿½veil");
 		this.setLocation(0, 0);
 		this.setSize(800, 480);
 		this.setUndecorated( true );
 
-		// Création du panel
+		// CrÃ©ation du panel
 		jPanelReveil = new JPanelReveil();
 		jPanelReveil.setSize( 800, 480 );
 
@@ -117,7 +117,7 @@ public class JFrameReveil extends JFrame
 
 		colorReveil = Color.BLUE;
 				
-		// Création des panels
+		// CrÃ©ation des panels
 		jPanelNorth = new JPanel();
 		jPanelCenter = new JPanel();
 		jPanelSouth = new JPanel();
@@ -132,7 +132,7 @@ public class JFrameReveil extends JFrame
 		jPanelSouth.setPreferredSize( new Dimension( 800, 60) );
 		jPanelSouth.setOpaque( false );
 				
-		// Création des polices de caractère
+		// CrÃ©ation des polices de caractÃ¨re
 		
 		fontConsolasItalicBold009 = new Font("Consolas", Font.ITALIC | Font.BOLD, 9);
 		fontConsolasItalicBold014 = new Font("Consolas", Font.ITALIC | Font.BOLD, 14);
@@ -146,7 +146,7 @@ public class JFrameReveil extends JFrame
 		flowLayoutNorth.setHgap(10);
 		flowLayoutNorth.setVgap(10);
 		
-		// Création des boutons modaux
+		// CrÃ©ation des boutons modaux
 		
 		jButtonClock = new JButton();
 		jButtonClock.setSize(40, 120);
@@ -192,7 +192,7 @@ public class JFrameReveil extends JFrame
 
 		// 2.1. Panel CENTER-CLOCK
 		
-		// Création du panel CENTER-CLOCK
+		// CrÃ©ation du panel CENTER-CLOCK
 		jPanelCenterClock = new JPanelDigitalClock( colorReveil );
 		
 		// Gestion du panel CENTER-CLOCK
@@ -202,7 +202,7 @@ public class JFrameReveil extends JFrame
 		
 		// 2.2. Panel CENTER-ALARM
 		
-		// Création du panel CENTER-ALARM
+		// CrÃ©ation du panel CENTER-ALARM
 		jPanelCenterAlarm = new JPanelAnalogClock( colorReveil );
 		
 		// Gestion du panel CENTER-ALARM
@@ -212,7 +212,7 @@ public class JFrameReveil extends JFrame
 		
 		// 2.3. Panel CENTER-TONES
 		
-		// Création du panel CENTER-TONES
+		// CrÃ©ation du panel CENTER-TONES
 		jPanelCenterTones = new JPanel();
 		
 		// Gestion du panel CENTER-TONES
@@ -222,7 +222,7 @@ public class JFrameReveil extends JFrame
 		
 		// 2.4. Panel CENTER-RADIO
 		
-		// Création du panel CENTER-RADIO
+		// CrÃ©ation du panel CENTER-RADIO
 		jPanelCenterRadio = new JPanel();
 
 		// Gestion du panel CENTER-RADIO		
@@ -232,7 +232,7 @@ public class JFrameReveil extends JFrame
 		
 		// 2.5. Panel CENTER-TRACK
 		
-		// Création du panel CENTER-TRACK
+		// CrÃ©ation du panel CENTER-TRACK
 		jPanelCenterTrack = new JPanel();
 		
 		// Gestion du panel CENTER-TRACK
@@ -258,7 +258,7 @@ public class JFrameReveil extends JFrame
 		jPanelCenter.add( jPanelCenterTrack );
 		
 
-		// Mise au mode Horloge à la construction
+		// Mise au mode Horloge ï¿½ la construction
 		this.setModeClock();
 
 		
@@ -270,7 +270,7 @@ public class JFrameReveil extends JFrame
 		flowLayoutSouth.setHgap(20);
 		flowLayoutSouth.setVgap(10);
 			
-		// Création des boutons interactifs
+		// CrÃ©ation des boutons interactifs
 		jButtonGray = new JButton();
 		jButtonGray.setSize(40, 40);
 		jButtonGray.setMargin( new Insets(0, 0, 0, 0) );
@@ -311,7 +311,7 @@ public class JFrameReveil extends JFrame
 		// Gestion du panel
 		this.getContentPane().add( jPanelReveil );
 		
-		// Gestion de la fenêtre
+		// Gestion de la fenï¿½tre
 		this.setDefaultCloseOperation( JFrame.DO_NOTHING_ON_CLOSE );
 		this.setResizable( false );
 		this.setVisible( true );
@@ -319,15 +319,15 @@ public class JFrameReveil extends JFrame
 	}
 			
 	
-	// Mise à l'heure
+	// Mise Ã  l'heure
 	public void setTime( String hour_, String minute_, String seconde_, String dayOfWeek_, String day_, String month_, String year_)
 	{
 		
-		// Mise à l'heure en mode clock
+		// Mise Ã  l'heure en mode clock
 		this.jPanelCenterClock.setTime(hour_, minute_, seconde_, dayOfWeek_, day_, month_, year_);
 				
 		
-		// Mise à l'heure dans les autres modes
+		// Mise Ã  l'heure dans les autres modes
 
 		
 			
@@ -347,14 +347,14 @@ public class JFrameReveil extends JFrame
 		
 	}
 	
-	// Mode Réveil (Alarm) 
+	// Mode RÃ©veil (Alarm) 
 	public void setModeAlarm()
 	{
 
 		cardLayoutCenter.show( jPanelCenter, PANEL_CENTER_ALARM );
 		
 		borderReveil = BorderFactory.createLineBorder( colorReveil, 1 );
-		borderReveil = BorderFactory.createTitledBorder( borderReveil, "Réveil", TitledBorder.LEFT, TitledBorder.TOP, fontConsolasItalicBold014 );
+		borderReveil = BorderFactory.createTitledBorder( borderReveil, "Rï¿½veil", TitledBorder.LEFT, TitledBorder.TOP, fontConsolasItalicBold014 );
 		jPanelReveil.setBorder( borderReveil );
 
 	}

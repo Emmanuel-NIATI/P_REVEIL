@@ -295,7 +295,7 @@ public class JPanelDigitalClock extends JPanel
 	}
 		
 	
-	// Génération transparence
+	// GÃ©nÃ©ration transparence
 	private ImageIcon transparent( ImageIcon imageIcon )
 	{
 		
@@ -331,7 +331,7 @@ public class JPanelDigitalClock extends JPanel
 
 	}
 	
-	// Génération couleur
+	// GÃ©nÃ©ration couleur
 	private ImageIcon colorize( ImageIcon imageIcon)
 	{
 
@@ -367,7 +367,7 @@ public class JPanelDigitalClock extends JPanel
 		
 	}
 	
-	// Génération taille
+	// GÃ©nÃ©ration taille
 	private ImageIcon resize( ImageIcon imageIcon, int size )
 	{
 
@@ -420,7 +420,7 @@ public class JPanelDigitalClock extends JPanel
 
 	}
 	
-	// Génération espacement
+	// GÃ©nÃ©ration espacement
 	private ImageIcon spacer( char c, int size )
 	{
 		
@@ -446,7 +446,7 @@ public class JPanelDigitalClock extends JPanel
 
 	}
 
-	// Génération nombre
+	// GÃ©nÃ©ration nombre
 	private ImageIcon number( char c, int size )
 	{
 		
@@ -472,7 +472,7 @@ public class JPanelDigitalClock extends JPanel
 
 	}
 	
-	// Génération lettre
+	// GÃ©nÃ©ration lettre
 	private ImageIcon letter( char c, int size )
 	{
 		
@@ -498,7 +498,7 @@ public class JPanelDigitalClock extends JPanel
 
 	}
 
-	// Mise à l'heure
+	// Mise Ã  l'heure
 	public void setTime( String hour_, String minute_, String seconde_, String dayOfWeek_, String day_, String month_, String year_)
 	{
 		
