@@ -96,7 +96,7 @@ public class JFrameReveil extends JFrame
 		super();
 
 		// Gestion de l'apparence de la fenêtre 
-		this.setTitle("R�veil");
+		this.setTitle("Réveil");
 		this.setLocation(0, 0);
 		this.setSize(800, 480);
 		this.setUndecorated( true );
