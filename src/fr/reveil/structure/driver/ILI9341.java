@@ -12,10 +12,10 @@ import com.pi4j.io.gpio.GpioPinDigitalOutput;
 import com.pi4j.io.gpio.PinState;
 import com.pi4j.io.gpio.RaspiPin;
 
-import fr.reveil.framework.pi4j.io.spi.SpiChannel;
-import fr.reveil.framework.pi4j.io.spi.SpiDevice;
-import fr.reveil.framework.pi4j.io.spi.SpiFactory;
-import fr.reveil.framework.pi4j.io.spi.SpiMode;
+import com.pi4j.io.spi.SpiChannel;
+import com.pi4j.io.spi.SpiDevice;
+import com.pi4j.io.spi.SpiFactory;
+import com.pi4j.io.spi.SpiMode;
 
 public class ILI9341
 {
